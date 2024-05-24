@@ -58,8 +58,8 @@ export const AboutSection = () => {
       {/*<TypewriterEffectSmooth className="hidden sm:flex" words={words} />*/}
       <div className="flex flex-col items-center mb-12">
         <h3 className="flex flex-col items-center text-center mb-2">
-          Salut je m'apelle Louan J'ai 21 ans et je suis passionné par
-          l'informatique !
+          Salut je m&apos;apelle Louan J&apos;ai 21 ans et je suis passionné par
+          l&apos;informatique !
         </h3>
         <div className="w-full h-40 relative">
           {/* Gradients */}
@@ -84,16 +84,17 @@ export const AboutSection = () => {
       </div>
 
       <p className="text-center max-w-[850px]">
-        Je suis actuellement en fin d'étude du Bachelor développeur web à Hetic
-        et rentre bientôt dans le Master ingénieurie web et Mobile à L'iim. Je
-        souhaiterais dans le futur Devenir lead-développeur, alors je m'efforce
-        d'apprendre aussi bien le backend que le front end !
+        Je suis actuellement en fin d&apos;étude du Bachelor développeur web à
+        Hetic et rentre bientôt dans le Master ingénieurie web et Mobile à
+        L&apos;iim. Je souhaiterais dans le futur Devenir lead-développeur,
+        alors je m&apos;efforce d&apos;apprendre aussi bien le backend que le
+        front end !
       </p>
       <div className="overflow-hidden w-full">
         <MacbookScroll
           title={
             <span>
-              Je travaille sur un macbook pro. <br /> Apple c'est le top !
+              Je travaille sur un macbook pro. <br /> Apple c&apos;est le top !
             </span>
           }
           badge={

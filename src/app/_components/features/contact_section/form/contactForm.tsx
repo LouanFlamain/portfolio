@@ -20,8 +20,8 @@ export function ContactForm() {
         Laissez moi un message
       </h2>
       <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300">
-        Cette fonctionnalité n'est pas encore finie, je vous invite à me joindre
-        par linkedin ou à{" "}
+        Cette fonctionnalité n&apos;est pas encore finie, je vous invite à me
+        joindre par linkedin ou à{" "}
         <a
           href="mailto:flamainlouan@gmail.com"
           className="text-primary underline cursor-pointer"
