@@ -32,8 +32,8 @@ export const ProjectSection = () => {
   return (
     <div className="flex flex-col items-center gap-12 mb-28 py-12">
       <div className="flex flex-col items-center">
-        <h1>Projets</h1>
-        <h2>Scolaires et personnels</h2>
+        <h1 className="text-center">Projets</h1>
+        <h2 className="text-center">Scolaires et personnels</h2>
       </div>
       <div className="flex flex-col items-center">
         <HoverEffect items={projects} />

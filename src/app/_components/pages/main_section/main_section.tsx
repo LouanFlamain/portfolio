@@ -7,7 +7,7 @@ export const MainSection = () => {
   return (
     <div className="flex flex-col items-center gap-12 mb-28 py-12">
       <div className="flex flex-col items-center">
-        <h1>Louan Flamain</h1>
+        <h1 className="text-center">Louan Flamain</h1>
         <h2>
           Développeur <FlipWords words={words} />
         </h2>

@@ -121,7 +121,7 @@ export const SkillSection = () => {
   return (
     <div className="flex flex-col items-center gap-12 mb-28 py-12 w-full">
       <div className="flex flex-col items-center">
-        <h1>Compétences</h1>
+        <h1 className="text-center">Compétences</h1>
         <h2>
           <FlipWords words={words} />
           skills

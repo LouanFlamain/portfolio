@@ -52,8 +52,8 @@ export const AboutSection = () => {
   return (
     <div className="flex flex-col items-center gap-12 mb-28 py-12">
       <div className="flex flex-col items-center">
-        <h1>Qui suis-je ?</h1>
-        <h2>Petit instant blabla</h2>
+        <h1 className="text-center">Qui suis-je ?</h1>
+        <h2 className="text-center">Petit instant blabla</h2>
       </div>
       {/*<TypewriterEffectSmooth className="hidden sm:flex" words={words} />*/}
       <div className="flex flex-col items-center mb-12">
