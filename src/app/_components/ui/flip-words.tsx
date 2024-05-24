@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion, LayoutGroup } from "framer-motion";
 import { cn } from "@/utils/cn";
 let interval: any;
@@ -15,7 +15,7 @@ export const FlipWords = ({
 }) => {
   const [currentWord, setCurrentWord] = useState(words[0]);
 
-  const startAnimation = () => {
+  const startAnimation = useCallback(() => {
     let i = 0;
     interval = setInterval(() => {
       i++;
@@ -25,7 +25,7 @@ export const FlipWords = ({
       const word = words[i];
       setCurrentWord(word);
     }, duration);
-  };
+  }, [words, duration]);
 
   useEffect(() => {
     startAnimation();
