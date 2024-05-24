@@ -94,7 +94,8 @@ export const AboutSection = () => {
         <MacbookScroll
           title={
             <span>
-              Je travaille sur un macbook pro. <br /> Apple c&apos;est le top !
+              Pour ce qui est de mon matos je travaille sur <br /> Apple
+              (macbook pro m1)
             </span>
           }
           badge={
