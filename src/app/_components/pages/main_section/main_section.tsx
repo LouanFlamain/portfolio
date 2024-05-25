@@ -16,7 +16,7 @@ export const MainSection = () => {
         <EvervaultCard className="max-w-[380px] max-h-[380px] mb-8" />
         <p>Bienvenue sur mon Portofolio ! </p>
       </div>
-      <HoverButton>Voir mon CV</HoverButton>
+      <HoverButton download="/img/FLAMAIN Louan.jpg">Voir mon CV</HoverButton>
     </div>
   );
 };

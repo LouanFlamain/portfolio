@@ -21,6 +21,10 @@ export default function RootLayout({
           href="https://fonts.cdnfonts.com/css/mochiy-pop-one"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.cdnfonts.com/css/narnoor"
+          rel="stylesheet"
+        ></link>
       </head>
       <body className="dark">
         <AuroraBackground

@@ -90,7 +90,7 @@ export const AboutSection = () => {
         alors je m&apos;efforce d&apos;apprendre aussi bien le backend que le
         front end !
       </p>
-      <div className="overflow-hidden w-full">
+      <div className="overflow-hidden w-full hidden md:block">
         <MacbookScroll
           title={
             <span>

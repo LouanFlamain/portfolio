@@ -9,7 +9,7 @@ export const SkillSection = () => {
           <h3 className="mb-1 text-primary">Langages</h3>
           <ul className="flex gap-3">
             <li>PHP</li>
-            <li>Javascript</li>
+            <li>Javascript (typescript)</li>
             <li>Golang</li>
           </ul>
         </div>
