@@ -30,7 +30,7 @@ export const ProjectSection = () => {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-between gap-12 mb-28 py-12 w-full">
+    <div className="flex flex-col items-center justify-between gap-12 mb-28 py-12 w-full min-h-screen">
       <div className="flex flex-col items-center">
         <h1 className="text-center">Projets</h1>
         <h2 className="text-center">Scolaires et personnels</h2>
